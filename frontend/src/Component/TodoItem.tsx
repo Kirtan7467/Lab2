@@ -26,7 +26,10 @@ const TodoItem = ({ tododata, refresh }: TodoItemProps) => {
   
   return (
     <div className="todo-item-card">
+        <div className="block">
         <input type="checkbox" />
+
+        </div>
         <div className="todo-content">
       <h3>{tododata.title}</h3>
       <p>{tododata.description}</p>
